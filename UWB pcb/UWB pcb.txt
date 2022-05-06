@@ -1,0 +1,158 @@
+Configuration	UWB pcb
+STM32CubeMX 	6.1.1
+Date	04/08/2021
+MCU	STM32F732VETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI2	Full-Duplex Master	SPI2_MISO	PC2
+SPI2	Full-Duplex Master	SPI2_MOSI	PC1
+SPI2	Full-Duplex Master	SPI2_SCK	PB10
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTDO-SWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM5	Internal Clock	TIM5_VS_ClockSourceINT	VP_TIM5_VS_ClockSourceINT
+TIM8	Internal Clock	TIM8_VS_ClockSourceINT	VP_TIM8_VS_ClockSourceINT
+TIM9	Input Capture direct mode	TIM9_CH1	PE5
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0-WKUP
+UART5	Asynchronous	UART5_RX	PD2
+UART5	Asynchronous	UART5_TX	PC12
+UART7	Asynchronous	UART7_RX	PE7
+UART7	Asynchronous	UART7_TX	PE8
+UART8	Asynchronous	UART8_RX	PE0
+UART8	Asynchronous	UART8_TX	PE1
+USART6	Asynchronous	USART6_RX	PC7
+USART6	Asynchronous	USART6_TX	PC6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PE4	GPIO_Output	TRIG
+4	PE5	TIM9_CH1	
+12	PH0-OSC_IN	RCC_OSC_IN	
+13	PH1-OSC_OUT	RCC_OSC_OUT	
+16	PC1	SPI2_MOSI	
+17	PC2	SPI2_MISO	
+18	PC3	GPIO_Output	CS_microsd
+22	PA0-WKUP	UART4_TX	
+23	PA1	UART4_RX	
+29	PA5	SPI1_SCK	
+30	PA6	SPI1_MISO	
+31	PA7	SPI1_MOSI	
+32	PC4	GPIO_Output	CS1
+33	PC5	GPIO_Input	DREADY1
+34	PB0	GPIO_Output	CS2
+35	PB1	GPIO_Input	DREADY2
+37	PE7	UART7_RX	
+38	PE8	UART7_TX	
+46	PB10	SPI2_SCK	
+63	PC6	USART6_TX	
+64	PC7	USART6_RX	
+70	PA11	GPIO_Output	LD2
+71	PA12	GPIO_Output	LD3
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+80	PC12	UART5_TX	
+83	PD2	UART5_RX	
+89	PB3	SYS_JTDO-SWO	
+97	PE0	UART8_RX	
+98	PE1	UART8_TX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI2	Full-Duplex Master	SPI2_MISO	PC2
+SPI2	Full-Duplex Master	SPI2_MOSI	PC1
+SPI2	Full-Duplex Master	SPI2_SCK	PB10
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_JTDO-SWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM5	Internal Clock	TIM5_VS_ClockSourceINT	VP_TIM5_VS_ClockSourceINT
+TIM8	Internal Clock	TIM8_VS_ClockSourceINT	VP_TIM8_VS_ClockSourceINT
+TIM9	Input Capture direct mode	TIM9_CH1	PE5
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0-WKUP
+UART5	Asynchronous	UART5_RX	PD2
+UART5	Asynchronous	UART5_TX	PC12
+UART7	Asynchronous	UART7_RX	PE7
+UART7	Asynchronous	UART7_TX	PE8
+UART8	Asynchronous	UART8_RX	PE0
+UART8	Asynchronous	UART8_TX	PE1
+USART6	Asynchronous	USART6_RX	PC7
+USART6	Asynchronous	USART6_TX	PC6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PE4	GPIO_Output	TRIG
+4	PE5	TIM9_CH1	
+12	PH0-OSC_IN	RCC_OSC_IN	
+13	PH1-OSC_OUT	RCC_OSC_OUT	
+16	PC1	SPI2_MOSI	
+17	PC2	SPI2_MISO	
+18	PC3	GPIO_Output	CS_microsd
+22	PA0-WKUP	UART4_TX	
+23	PA1	UART4_RX	
+29	PA5	SPI1_SCK	
+30	PA6	SPI1_MISO	
+31	PA7	SPI1_MOSI	
+32	PC4	GPIO_Output	CS1
+33	PC5	GPIO_Input	DREADY1
+34	PB0	GPIO_Output	CS2
+35	PB1	GPIO_Input	DREADY2
+37	PE7	UART7_RX	
+38	PE8	UART7_TX	
+46	PB10	SPI2_SCK	
+63	PC6	USART6_TX	
+64	PC7	USART6_RX	
+70	PA11	GPIO_Output	LD2
+71	PA12	GPIO_Output	LD3
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+80	PC12	UART5_TX	
+83	PD2	UART5_RX	
+89	PB3	SYS_JTDO-SWO	
+97	PE0	UART8_RX	
+98	PE1	UART8_TX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : UWB pcb
+Project Folder : D:\KTUnas\Arvydo\Bakalauras\cube pcb\UWB pcb
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F7 V1.16.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
