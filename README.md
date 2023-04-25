@@ -4,7 +4,7 @@ My BA thesis: beacon based object tracking using UAV. Navigation is performed us
 Summary can be found in .pdf slides.
 
 Navigation diagram  
-![alt text](https://github.com/arvtom/uwb_trac/blob/master/navigation_diagram.png?raw=true)  
+![alt text](https://github.com/arvtom/uwb_trac/blob/master/navigation_diagram.png)  
 
 HW bock diagram  
 ![alt text](https://github.com/arvtom/uwb_trac/blob/master/hw_block_diagram.png?raw=true)  
